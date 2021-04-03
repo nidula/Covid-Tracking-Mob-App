@@ -32,6 +32,7 @@
                 android:layout_marginBottom="15dp"
                 android:ems="10"
                 android:gravity="center"
+                android:textColorHint="#B0B0B1"
                 android:hint="Enter your location to create a QR Code"
                 android:inputType="textPersonName"
                 android:textColor="#000" />
@@ -53,7 +54,7 @@
                 android:text="Scan your QR Code" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/tv_qr_readTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp" />
